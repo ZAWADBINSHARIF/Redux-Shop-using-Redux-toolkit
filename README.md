@@ -2,4 +2,4 @@
 
 ## Home page
 
-![Home page picture]('github/imgs/home-page.png')
+![Home page picture]('/github/imgs/home.png')
