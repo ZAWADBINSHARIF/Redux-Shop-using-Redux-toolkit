@@ -16,6 +16,13 @@ body{
     }
 }
 
+span{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+
+}
+
 
 // ** =============== Header =============
 
@@ -122,5 +129,39 @@ nav{
             }
         }
 
+    }
+}
+
+
+// ** ============= Cart =============
+.Cart{
+
+    .cartWrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 46px;
+    }
+    
+    .cartCard{
+        display: flex;
+        justify-content: space-between;
+        padding: 18px;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+        .remove-cart-btn{
+            height:min-content;
+            margin: 10px 0;
+            padding: 3px 14px;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(204, 14, 14);
+            border-radius: 9px;
+            
+            &:hover{
+            background-color: rgb(122, 0, 0);
+            }
+        }
     }
 }
