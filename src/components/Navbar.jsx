@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <span className="logo">REDUX SHOP</span>
+      <span className="logo"><Link className="logoLink" to='/'>REDUX SHOP</Link></span>
       <div className="navLinkList">
         <Link className="navLink" to="/">Home</Link>
         <span className="cartCount">

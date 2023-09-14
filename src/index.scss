@@ -36,6 +36,11 @@ nav{
     .logo{
         font-size: 48px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        .logoLink{
+            text-decoration: none;
+            color: inherit;
+        }
     }
 
     .navLinkList{ 
